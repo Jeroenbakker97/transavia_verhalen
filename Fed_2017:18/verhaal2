@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Verhalen website Transavia </title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="webfonts/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="webfonts/font-awesome/css/font-awesome.min.css">
+</head>
+ 
+ <body>
+
+ <header>
+  <img src="images/logo_klein.png" alt="Transavia verhalenwebsite logo"><h1>Transavia</h1>
+  <p>Verhalenwebsite</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="homepage.html">Ontdek</a></li>
+    <li><a href="mijnlijst.html">Mijn lijst</a></li>
+    <li><a href="Contact.html">Inloggen </a></li>
+  </ul>
+</nav>
+
+
+<main>
+<h2> Johan Cruijff</h2>
+            
+<img src="images/johan.png" alt="Sportcommentaar">
+  
+</main>
+
+
+</body>
+
+
+<footer>
+    
+    
+</footer>
+
+
+</html>

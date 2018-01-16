@@ -1,0 +1,377 @@
+main article h2 {
+    color: #29129d !important;
+}
+article h2{
+    color: #29129d !important;
+}
+h2 {
+    color: #29129d;
+}
+article h4{
+    color: #FF3268;
+}
+button {
+     padding: 0.5em;
+    background: #FF3268;
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+}
+form {
+  display:flex;
+  flex-direction:column;
+  transition: all .5s;
+  padding:1em;
+  background:HoneyDew;
+}
+form:invalid {
+  background: rgba(255,0,0,.1);
+}
+fieldset {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-bottom: 1em;
+  border:none;
+  transition: all .2s;
+  padding:1em;
+  background:PaleGreen;
+}
+fieldset p {
+  display:block;
+  color: White;
+  background:SeaGreen;
+  padding:.25em;
+
+}
+fieldset:invalid {
+  background: rgba(255,0,0,.1);
+}
+fieldset:invalid p {
+  display:none;
+}
+legend {
+  font-weight:bold;
+}
+input {
+  border-color:#000;
+  padding:.25em;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+  width:100%;
+  transition:all .2s;
+  z-index:2;
+}
+input:valid {
+  border-color:green;
+} 
+input:invalid {
+  border-color:MediumVioletRed;
+  background: LightPink;
+}
+input:focus {
+  transform: scale(1.01, 1.01);
+}
+input:focus + .tooltip {
+  display:block;
+  opacity:1;
+  margin-top:-1.3em;
+}
+input:disabled {
+  border-color:#eee;
+  background-color: #f9f9f9;
+}
+input::placeholder {
+  color:rgba(0,0,0,.25);
+  font-style:italic;
+}
+button {
+  font-size: 1.25em;
+  flex:0 0 2em;
+  transition:all .2s 1s;
+  opacity:0;
+  width:6em;
+}
+form:valid button {
+  opacity:1
+}
+button:focus {
+  transform: scale(1.1, 1.1);
+}
+.tooltip { 
+  z-index:1;
+  color:DodgerBlue;
+  padding:.25em;
+  background:AliceBlue;
+  border: 1px solid currentColor;
+  font-style:italic;
+  transition:all .2s;
+  margin-top:-3em;
+  opacity:0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Nexa_Light;
+}
+
+@font-face {
+    font-family: 'Nexa_Light';
+    src: url(webfonts/Nexa_Free_Light-webfont.woff)format('woff');
+}
+
+@font-face {
+    font-family: 'Nexa_Bold';
+    src: url(webfonts/Nexa_Free_Bold-webfont.woff) format('woff');
+}
+
+
+/* Home / Ontdek */
+
+body {
+    background-color: #F3E5D8;
+}
+
+header {
+    width: 100%;
+    height: 6em;
+}
+
+header nav {
+    color: #00d66c;
+    text-align: center;
+    padding-top: 1em;
+    position: relative;
+    z-index: 10;
+    padding: .5em 1em;
+    height: 3.25em;
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+header nav ul li {}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+nav {
+    background: white;
+    color: green;
+    text-align: center;
+    padding-top: 1em;
+}
+
+nav h2 {
+    padding-top: .5em;
+    font-family: Nexa_Bold;
+}
+
+nav a {
+    width: 100%;
+    display: block;
+    height: 2em;
+    padding-top: .5em;
+    text-decoration: none;
+    color: white;
+}
+
+
+#menu{
+    color: black;
+        display:none;
+ 
+}
+#menu header nav ul{
+
+    width: 100%;
+    list-style-type: none;
+
+}
+
+section.keuze nav {
+    background-color: #F3E5D8;
+}
+
+section.keuze {
+    background-color: #F3E5D8;
+    color: #00d66c;
+    text-align: center;
+    padding-top: 1em;
+    width: 100%;
+}
+
+section.keuze h2 {}
+
+section.keuze nav ul {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+section.keuze nav ul li {}
+
+section.keuze nav ul li a {
+    text-decoration: none;
+     color: #29129d;
+}
+
+main {
+    background-color: #fff;
+    width: 100%;
+    justify-content: center;
+    background-color: #F3E5D8;
+    display: none;
+}
+main.active{
+    display: block;
+    
+}
+
+
+section article{
+    width: 75%;
+    padding-left: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 1em;
+    margin-left: 2em;
+    background: white;
+    border-radius: 1em;
+}
+
+section article a {
+    padding: 0.5em;
+    background: #FF3268;
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+}
+main article {
+    width: 75%;
+    padding-left: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 1em;
+    margin-left: 2em;
+    background: white;
+    border-radius: 1em;
+}
+
+main article a {
+    padding: 0.5em;
+    background: #FF3268;
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+}
+main article a:hover {
+    background: #29129d;
+}
+main article a:active {
+   transform: scale(.9, .9);
+}
+
+
+main article h6 {
+    font-size: .7em;
+}
+
+main article h2 {
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
+}
+
+main article p{
+    margin: 1em 0em;
+}
+
+
+footer {
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+
+/* Leeslijsten */
+
+section.categorie {
+    margin: 0 2em;
+}
+
+section select {
+    font-size: 1.3em;
+    width: 100%;
+    height: 2em;
+    box-sizing: border-box;
+}
+
+
+/* Slider */
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    position: absolute;
+    bottom: 120px;
+    color: #02d66c;
+    border: 0;
+    background: none;
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-prev:after {
+      content: "\f104";
+    font: 40px/1 'FontAwesome';
+}
+
+.slick-next {
+    right: 20px;
+    text-align: right;
+}
+
+.slick-next:after {
+       content: "\f105";
+     font: 40px/1 'FontAwesome';
+}
+
+.slick-prev:hover:after,
+.slick-next:hover:after {
+    color: #7e7e7e;
+}
+
+
+Media querys 
+
+
+@media (min-width: 800px) {
+
+    main {
+display: block;
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+    main {
+        display: block;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+
